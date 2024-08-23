@@ -7,10 +7,10 @@ mkdir my_directory
 touch my_directory/my_file.txt
 
 # Rename the file
-mv my_file.txt renamed_file.txt
+mv my_directory/my_file.txt my_directory/renamed_file.txt
 
 # Remove the file
-rm renamed_file.txt
+rm my_directory/renamed_file.txt
 
 # Remove the directory
  rmdir my_directory
