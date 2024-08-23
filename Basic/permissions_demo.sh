@@ -35,5 +35,5 @@ ls -l sample_file.txt
 # ls -l sample_file.txt
 
 # Clean up by removing the files created
-rm sample_file.txt new_file.txt
+rm sample_file.txt
 echo "Permission command demonstration completed."
