@@ -4,5 +4,11 @@ read num1
 echo "Enter second number:"
 read num2
 sum=$((num1 + num2))
-echo "The sum is: $sum"
+difference=$((num1 - num2))
+product=$((num1 * num2))
+quotient=$((num1 / num2))
 
+echo "Sum: $sum"
+echo "Difference: $difference"
+echo "Product: $product"
+echo "Quotient: $quotient"
